@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E83C99842064CF6300DD74DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E83C99832064CF6300DD74DA /* AppDelegate.m */; };
+		E83C99872064CF6300DD74DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E83C99862064CF6300DD74DA /* ViewController.m */; };
+		E83C998A2064CF6300DD74DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83C99882064CF6300DD74DA /* Main.storyboard */; };
+		E83C998C2064CF6300DD74DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83C998B2064CF6300DD74DA /* Assets.xcassets */; };
+		E83C998F2064CF6300DD74DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83C998D2064CF6300DD74DA /* LaunchScreen.storyboard */; };
+		E83C99922064CF6300DD74DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E83C99912064CF6300DD74DA /* main.m */; };
+		E83C999A2064D05500DD74DA /* KeyboardBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E83C99992064D05500DD74DA /* KeyboardBar.m */; };
+		E83C999C2064D68E00DD74DA /* chat_audio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C999B2064D68E00DD74DA /* chat_audio@2x.png */; };
+		E83C999E2064D69200DD74DA /* chat_audio@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C999D2064D69200DD74DA /* chat_audio@3x.png */; };
+		E83C99A02064D6DA00DD74DA /* touch_talk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C999F2064D6DA00DD74DA /* touch_talk@2x.png */; };
+		E83C99A22064D6DE00DD74DA /* touch_talk @3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C99A12064D6DE00DD74DA /* touch_talk @3x.png */; };
+		E83C99A42064DA7A00DD74DA /* chat_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C99A32064DA7A00DD74DA /* chat_more@2x.png */; };
+		E83C99A62064DA7E00DD74DA /* chat_more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C99A52064DA7E00DD74DA /* chat_more@3x.png */; };
+		E83C99A82064DAB300DD74DA /* keyBoard_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C99A72064DAB300DD74DA /* keyBoard_icon@2x.png */; };
+		E83C99AA2064DAB700DD74DA /* keyBoard_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C99A92064DAB700DD74DA /* keyBoard_icon@3x.png */; };
+		E83C99AC2064DAFE00DD74DA /* chat_enjoy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C99AB2064DAFE00DD74DA /* chat_enjoy@2x.png */; };
+		E83C99AE2064DB0100DD74DA /* chat_enjoy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C99AD2064DB0100DD74DA /* chat_enjoy@3x.png */; };
+		E83C99B02064DB7200DD74DA /* end_audio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C99AF2064DB7200DD74DA /* end_audio@2x.png */; };
+		E83C99B22064DB7600DD74DA /* end_audio@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E83C99B12064DB7600DD74DA /* end_audio@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E83C997F2064CF6300DD74DA /* 键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83C99822064CF6300DD74DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E83C99832064CF6300DD74DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E83C99852064CF6300DD74DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E83C99862064CF6300DD74DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E83C99892064CF6300DD74DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E83C998B2064CF6300DD74DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E83C998E2064CF6300DD74DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E83C99902064CF6300DD74DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E83C99912064CF6300DD74DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E83C99982064D05500DD74DA /* KeyboardBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardBar.h; sourceTree = "<group>"; };
+		E83C99992064D05500DD74DA /* KeyboardBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardBar.m; sourceTree = "<group>"; };
+		E83C999B2064D68E00DD74DA /* chat_audio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_audio@2x.png"; sourceTree = "<group>"; };
+		E83C999D2064D69200DD74DA /* chat_audio@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_audio@3x.png"; sourceTree = "<group>"; };
+		E83C999F2064D6DA00DD74DA /* touch_talk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch_talk@2x.png"; sourceTree = "<group>"; };
+		E83C99A12064D6DE00DD74DA /* touch_talk @3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch_talk @3x.png"; sourceTree = "<group>"; };
+		E83C99A32064DA7A00DD74DA /* chat_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_more@2x.png"; sourceTree = "<group>"; };
+		E83C99A52064DA7E00DD74DA /* chat_more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_more@3x.png"; sourceTree = "<group>"; };
+		E83C99A72064DAB300DD74DA /* keyBoard_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyBoard_icon@2x.png"; sourceTree = "<group>"; };
+		E83C99A92064DAB700DD74DA /* keyBoard_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyBoard_icon@3x.png"; sourceTree = "<group>"; };
+		E83C99AB2064DAFE00DD74DA /* chat_enjoy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_enjoy@2x.png"; sourceTree = "<group>"; };
+		E83C99AD2064DB0100DD74DA /* chat_enjoy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_enjoy@3x.png"; sourceTree = "<group>"; };
+		E83C99AF2064DB7200DD74DA /* end_audio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "end_audio@2x.png"; sourceTree = "<group>"; };
+		E83C99B12064DB7600DD74DA /* end_audio@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "end_audio@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E83C997C2064CF6300DD74DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E83C99762064CF6300DD74DA = {
+			isa = PBXGroup;
+			children = (
+				E83C99812064CF6300DD74DA /* 键盘 */,
+				E83C99802064CF6300DD74DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E83C99802064CF6300DD74DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E83C997F2064CF6300DD74DA /* 键盘.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E83C99812064CF6300DD74DA /* 键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				E83C99822064CF6300DD74DA /* AppDelegate.h */,
+				E83C99832064CF6300DD74DA /* AppDelegate.m */,
+				E83C99852064CF6300DD74DA /* ViewController.h */,
+				E83C99862064CF6300DD74DA /* ViewController.m */,
+				E83C99982064D05500DD74DA /* KeyboardBar.h */,
+				E83C99992064D05500DD74DA /* KeyboardBar.m */,
+				E83C99B12064DB7600DD74DA /* end_audio@3x.png */,
+				E83C99AF2064DB7200DD74DA /* end_audio@2x.png */,
+				E83C99AD2064DB0100DD74DA /* chat_enjoy@3x.png */,
+				E83C99AB2064DAFE00DD74DA /* chat_enjoy@2x.png */,
+				E83C99A92064DAB700DD74DA /* keyBoard_icon@3x.png */,
+				E83C99A72064DAB300DD74DA /* keyBoard_icon@2x.png */,
+				E83C99A52064DA7E00DD74DA /* chat_more@3x.png */,
+				E83C99A32064DA7A00DD74DA /* chat_more@2x.png */,
+				E83C99A12064D6DE00DD74DA /* touch_talk @3x.png */,
+				E83C999F2064D6DA00DD74DA /* touch_talk@2x.png */,
+				E83C999D2064D69200DD74DA /* chat_audio@3x.png */,
+				E83C999B2064D68E00DD74DA /* chat_audio@2x.png */,
+				E83C99882064CF6300DD74DA /* Main.storyboard */,
+				E83C998B2064CF6300DD74DA /* Assets.xcassets */,
+				E83C998D2064CF6300DD74DA /* LaunchScreen.storyboard */,
+				E83C99902064CF6300DD74DA /* Info.plist */,
+				E83C99912064CF6300DD74DA /* main.m */,
+			);
+			path = "键盘";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E83C997E2064CF6300DD74DA /* 键盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83C99952064CF6300DD74DA /* Build configuration list for PBXNativeTarget "键盘" */;
+			buildPhases = (
+				E83C997B2064CF6300DD74DA /* Sources */,
+				E83C997C2064CF6300DD74DA /* Frameworks */,
+				E83C997D2064CF6300DD74DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "键盘";
+			productName = "键盘";
+			productReference = E83C997F2064CF6300DD74DA /* 键盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E83C99772064CF6300DD74DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = YT_lwf;
+				TargetAttributes = {
+					E83C997E2064CF6300DD74DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E83C997A2064CF6300DD74DA /* Build configuration list for PBXProject "键盘" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E83C99762064CF6300DD74DA;
+			productRefGroup = E83C99802064CF6300DD74DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E83C997E2064CF6300DD74DA /* 键盘 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E83C997D2064CF6300DD74DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83C99A62064DA7E00DD74DA /* chat_more@3x.png in Resources */,
+				E83C999E2064D69200DD74DA /* chat_audio@3x.png in Resources */,
+				E83C99A82064DAB300DD74DA /* keyBoard_icon@2x.png in Resources */,
+				E83C99A22064D6DE00DD74DA /* touch_talk @3x.png in Resources */,
+				E83C99AA2064DAB700DD74DA /* keyBoard_icon@3x.png in Resources */,
+				E83C998F2064CF6300DD74DA /* LaunchScreen.storyboard in Resources */,
+				E83C99AC2064DAFE00DD74DA /* chat_enjoy@2x.png in Resources */,
+				E83C99A02064D6DA00DD74DA /* touch_talk@2x.png in Resources */,
+				E83C99AE2064DB0100DD74DA /* chat_enjoy@3x.png in Resources */,
+				E83C99B22064DB7600DD74DA /* end_audio@3x.png in Resources */,
+				E83C998C2064CF6300DD74DA /* Assets.xcassets in Resources */,
+				E83C998A2064CF6300DD74DA /* Main.storyboard in Resources */,
+				E83C99B02064DB7200DD74DA /* end_audio@2x.png in Resources */,
+				E83C999C2064D68E00DD74DA /* chat_audio@2x.png in Resources */,
+				E83C99A42064DA7A00DD74DA /* chat_more@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E83C997B2064CF6300DD74DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83C99872064CF6300DD74DA /* ViewController.m in Sources */,
+				E83C99922064CF6300DD74DA /* main.m in Sources */,
+				E83C999A2064D05500DD74DA /* KeyboardBar.m in Sources */,
+				E83C99842064CF6300DD74DA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E83C99882064CF6300DD74DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E83C99892064CF6300DD74DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E83C998D2064CF6300DD74DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E83C998E2064CF6300DD74DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E83C99932064CF6300DD74DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E83C99942064CF6300DD74DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E83C99962064CF6300DD74DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QLD6CAGKDK;
+				INFOPLIST_FILE = "键盘/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutong.eyutongtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E83C99972064CF6300DD74DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QLD6CAGKDK;
+				INFOPLIST_FILE = "键盘/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutong.eyutongtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E83C997A2064CF6300DD74DA /* Build configuration list for PBXProject "键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83C99932064CF6300DD74DA /* Debug */,
+				E83C99942064CF6300DD74DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83C99952064CF6300DD74DA /* Build configuration list for PBXNativeTarget "键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83C99962064CF6300DD74DA /* Debug */,
+				E83C99972064CF6300DD74DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E83C99772064CF6300DD74DA /* Project object */;
+}
